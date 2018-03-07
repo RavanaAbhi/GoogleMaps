@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity
         findViewById(R.id.b4).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(MainActivity.this, IndoActivity.class);
+                Intent i = new Intent(MainActivity.this, BankActivity.class);
                 startActivity(i);
 
                 Toast.makeText(MainActivity.this, "", Toast.LENGTH_SHORT).show();
